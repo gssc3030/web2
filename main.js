@@ -1,7 +1,7 @@
 let target = document.querySelector("#dynamic");
 
 function randomString(){
-  let stringArr = ["Learn to HTML","Learn to CSS","Learn to Javascript"];
+  let stringArr = ["엄마","화이팅"];
   let selectString = stringArr[Math.floor(Math.random() * stringArr.length)];
   let selectStringArr = selectString.split("");
 
